@@ -1,6 +1,6 @@
-You are given two non-empty linked lists representing two non-negative integers. 
+You are given two non-empty linked lists representing two non-negative integers.
 
-The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list. 
+The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -13,8 +13,6 @@ Output: 7 -> 0 -> 8
 #### SOLUTION
 
 ```
-// Author : Austin Vern Songer
-
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -48,7 +46,7 @@ var addTwoNumbers = function(l1, l2) {
       head.next = node;
       head = node; 
     }
-    
+
     if (l1)
       l1 = l1.next;
     if (l2)
@@ -62,7 +60,6 @@ var addTwoNumbers = function(l1, l2) {
   }
 
   return ans;
-
 ```
 
 
