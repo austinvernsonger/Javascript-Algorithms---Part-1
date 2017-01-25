@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [JavaScript Algorithms](javascript-algorithms.md)
+    * [Two Sum](two-sum.md)
+
