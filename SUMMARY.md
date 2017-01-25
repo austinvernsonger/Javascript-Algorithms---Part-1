@@ -1,6 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [JavaScript Algorithms](javascript-algorithms.md)
-    * [Two Sum](two-sum.md)
+* [JavaScript Algorithms](JavaScript/javascript-algorithms.md)
+    * [Two Sum](JavaScript/two-sum.md)
 
