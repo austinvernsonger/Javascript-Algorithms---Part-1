@@ -6,4 +6,5 @@
   * [Add Two Numbers](JavaScript/add-two-numbers.md)
   * [Longest Substring Without Repeating Characters](JavaScript/longest-substring-without-repeating-characters.md)
   * [Median of Two Sorted](JavaScript/longest-substring-without-repeating-characters/median-of-two-sorted.md)
+  * [Longest Palindromic Substring](longest-palindromic-substring.md)
 
