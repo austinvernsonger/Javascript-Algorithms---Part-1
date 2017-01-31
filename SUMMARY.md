@@ -8,4 +8,6 @@
   * [Median of Two Sorted](JavaScript/longest-substring-without-repeating-characters/median-of-two-sorted.md)
   * [Longest Palindromic Substring](longest-palindromic-substring.md)
   * [ZigZag Conversion](zigzag-conversion.md)
+  * [Reverse Integer](reverse-integer.md)
+  * String To Integer Atoi
 
