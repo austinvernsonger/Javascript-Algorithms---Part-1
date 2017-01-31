@@ -1,7 +1,5 @@
 Implement regular expression matching with support for '.' and '\*'.
 
-
-
 ```
 '.' Matches any single character.
 '*' Matches zero or more of the preceding element.
@@ -35,8 +33,6 @@ var isMatch = function(s, p) {
   var pattern = new RegExp(p, 'g');
   return pattern.test(s);
 };
-
-
 ```
 
 
