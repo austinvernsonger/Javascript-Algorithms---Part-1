@@ -9,5 +9,6 @@
   * [Longest Palindromic Substring](longest-palindromic-substring.md)
   * [ZigZag Conversion](zigzag-conversion.md)
   * [Reverse Integer](reverse-integer.md)
-  * String To Integer Atoi
+  * [String To Integer Atoi](JavaScript/string-to-integer-atoi.md)
+  * [Palindrome Numbers](palindrome-numbers.md)
 
