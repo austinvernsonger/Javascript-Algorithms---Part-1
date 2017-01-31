@@ -7,4 +7,5 @@
   * [Longest Substring Without Repeating Characters](JavaScript/longest-substring-without-repeating-characters.md)
   * [Median of Two Sorted](JavaScript/longest-substring-without-repeating-characters/median-of-two-sorted.md)
   * [Longest Palindromic Substring](longest-palindromic-substring.md)
+  * [ZigZag Conversion](zigzag-conversion.md)
 
