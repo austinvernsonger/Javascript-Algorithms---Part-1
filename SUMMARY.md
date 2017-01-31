@@ -11,4 +11,5 @@
   * [Reverse Integer](reverse-integer.md)
   * [String To Integer Atoi](JavaScript/string-to-integer-atoi.md)
   * [Palindrome Numbers](palindrome-numbers.md)
+  * [Regular Expression Matching](JavaScript/regular-expression-matching.md)
 
