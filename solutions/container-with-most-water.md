@@ -1,6 +1,6 @@
-SOLUTION
+#### SOLUTION
 
-O\(n\).js
+##### O\(n\).js
 
 ```
 /**
@@ -25,7 +25,7 @@ var maxArea = function(height) {
 };
 ```
 
-O\(nlogn\).js
+##### O\(nlogn\).js
 
 ```
 /**
