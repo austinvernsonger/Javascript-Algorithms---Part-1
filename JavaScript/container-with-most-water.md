@@ -2,90 +2,9 @@
 
 Note: You may not slant the container andnis at least 2.
 
-SOLUTION
+---
 
-O\(n\).js
-
-```
-/**
- * @param {number[]} height
- * @return {number}
- */
-var maxArea = function(height) {
-  var start = 0
-    , end = height.length - 1
-    , maxn = 0;
-
-  while (start <= end) {
-    maxn = Math.max(maxn, Math.min(height[end], height[start]) * (end - start));
-
-    if (height[end] < height[start])
-      end --;
-    else
-      start ++;
-  }
-
-  return maxn;
-};
-```
-
-O\(nlogn\).js
-
-```
-/**
- * @param {number[]} height
- * @return {number}
- */
-var maxArea = function(height) {
-  return Math.max(fn(height), fn(height.concat().reverse()));
-};
-
-function fn(height) {
-  var len = height.length;
-  var ans = [];
-  var index = [];
-  var maxn = 0;
-
-  for (var i = 0; i < len; i++) {
-    if (!i) {
-      ans.push(height[i]);
-      index.push(i);
-    } else {
-      // 找到 ans 数组中刚好 >= height[i] 的元素位置
-      // 返回其下标
-      var pos = binarySearch(ans, height[i]);
-
-      if (pos !== ans.length)
-        maxn = Math.max(maxn, height[i] * (i - index[pos]));
-
-      if (height[i] > ans[ans.length - 1]) {
-        ans.push(height[i]);
-        index.push(i);
-      }
-    }
-  }
-
-  return maxn;
-}
-
-function binarySearch(a, target) {
-  target += 1;
-  var start = 0
-    , end = a.length - 1;
-
-  while(start <= end) {
-    var mid = ~~((start + end) >> 1);
-    if (a[mid] >= target)
-      end = mid - 1;
-    else
-      start = mid + 1;
-  }
-
-  if (a[start - 1] === target - 1)
-    start -= 1;
-  return start;
-}
-```
+#### NOTES
 
 
 
