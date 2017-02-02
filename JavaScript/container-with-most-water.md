@@ -2,8 +2,6 @@
 
 Note: You may not slant the container andnis at least 2.
 
-
-
 SOLUTION
 
 O\(n\).js
