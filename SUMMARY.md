@@ -25,6 +25,5 @@
   * [Palindrome Numbers](solutions/palindrome-numbers.md)
   * [Regular Expression Matching](solutions/regular-expression-matching.md)
   * [Container With Most Water](solutions/container-with-most-water.md)
-
-
+* [Intro](Introduction.md)
 
